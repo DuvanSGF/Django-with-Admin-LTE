@@ -1,0 +1,10 @@
+cymysql==0.9.4
+dj-database-url==0.4.2
+Django==1.11.5
+django-cymysql==2.0.0
+django-datatable==0.3.1
+django-filter==1.1.0
+Pillow==5.0.0
+psycopg2==2.7.4
+pytz==2017.2
+virtualenv==15.1.0

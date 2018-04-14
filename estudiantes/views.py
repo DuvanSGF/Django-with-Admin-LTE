@@ -27,7 +27,7 @@ class EstudianteList(ListView):
     queryset = Estudiante.objects.order_by('id_Estudiante')
     #queryset = Estudiante.objects.filter(Es_Estado=0).order_by('id_Estudiante')
     template_name = 'estudiantes/student_list.html'
-    paginate_by = 5
+    #paginate_by = 5
 
 # Vista para actualizar un estudiante
 class EstudianteUpdate(UpdateView):

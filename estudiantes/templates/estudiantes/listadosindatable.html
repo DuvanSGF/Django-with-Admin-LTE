@@ -38,7 +38,7 @@
 
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -81,7 +81,7 @@
           {% block content %}
 
 
-          <table class="table table-bordered" id="estudiantes">
+          <table class="table table-bordered">
           	<thead>
           		<tr>
           			<td>#</td>
@@ -91,6 +91,7 @@
           			<td>Programa</td>
           			<td>Departamento</td>
           			<td>Municipio</td>
+                <td>Avenada</td>
                 <td>Acciones</td>
           		</tr>
 
@@ -106,6 +107,8 @@
           			<td>{{ estudiante.Es_Programa_ID }}</td>
           			<td>{{ estudiante.Es_Departamento_ID }}</td>
                 <td>{{ estudiante.Es_Municipio_ID }}</td>
+                <td>{{ estudiante.Es_Venada }}</td>
+
           			<td>
           				<a class="btn btn-primary" href="{% url 'site:estudiante_mostrar' estudiante.id_Estudiante %}">Ver</a>
           				<a class="btn btn-primary" href="{% url 'site:estudiante_editar' estudiante.id_Estudiante %}">Editar</a>
@@ -191,12 +194,6 @@
 <script src="{% static 'dist/js/pages/dashboard.js' %}"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="{% static 'dist/js/demo.js' %}"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.0/jquery.js"></script>
-<script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js" charset="utf-8"></script>
-<script>
-$(document).ready( function () {
-  $('#estudiantes').DataTable();
-} );
-</script>
+
 </body>
 </html>

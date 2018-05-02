@@ -80,10 +80,12 @@
 
         <p><strong>Nombres: </strong>{{ object.Es_Nombre }} </p>
         <p><strong>Apellidos: </strong>{{ object.Es_Apellido }} </p>
+        <p><strong>Identificacion: </strong>{{ object.Es_Identificacion }} </p>
         <p><strong>Codigo: </strong>{{ object.Es_Codigo }} </p>
         <p><strong>Programa: </strong>{{ object.Es_Programa_ID }} </p>
-        <p><strong>Departamento: </strong>{{ object.Es_Departamento_ID }} </p>
-        <p><strong>Municipio: </strong>{{ object.Es_Municipio_ID }} </p>
+        <p><strong>Departamento: </strong>{{ object.Es_Departamento }} </p>
+        <p><strong>Municipio: </strong>{{ object.Es_Municipio }} </p>
+
 
         <a class= "btn btn-success" href="{% url 'site:estudiante_listar' %}">Ok</a>
         <a class= "btn btn-primary" href="{% url 'site:estudiante_editar' object.id_Estudiante %}">Editar</a>
@@ -92,7 +94,7 @@
         {% endblock %}
         <!-- /.box-body -->
         <div class="box-footer">
-          
+
         </div>
         <!-- /.box-footer-->
       </div>

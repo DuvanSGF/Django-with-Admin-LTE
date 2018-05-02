@@ -87,6 +87,7 @@
           			<td>#</td>
           			<td>Nombres</td>
           			<td>Apellidos</td>
+                <td>Identificacion</td>
           			<td>Codigo</td>
           			<td>Programa</td>
           			<td>Departamento</td>
@@ -102,10 +103,11 @@
           			<td>{{ estudiante.id_Estudiante }}</td>
           			<td>{{ estudiante.Es_Nombre }}</td>
           			<td>{{ estudiante.Es_Apellido }}</td>
+                <td>{{ estudiante.Es_Identificacion }}</td>
           			<td>{{ estudiante.Es_Codigo }}</td>
           			<td>{{ estudiante.Es_Programa_ID }}</td>
-          			<td>{{ estudiante.Es_Departamento_ID }}</td>
-                <td>{{ estudiante.Es_Municipio_ID }}</td>
+          			<td>{{ estudiante.Es_Departamento }}</td>
+                <td>{{ estudiante.Es_Municipio }}</td>
           			<td>
           				<a class="btn btn-primary" href="{% url 'site:estudiante_mostrar' estudiante.id_Estudiante %}">Ver</a>
           				<a class="btn btn-primary" href="{% url 'site:estudiante_editar' estudiante.id_Estudiante %}">Editar</a>

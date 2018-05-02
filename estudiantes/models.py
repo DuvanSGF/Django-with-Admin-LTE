@@ -2,7 +2,6 @@
 from __future__ import unicode_literals
 from django.db import models
 from django.urls import reverse
-from smart_selects.db_fields import ChainedForeignKey
 from smart_selects.db_fields import GroupedForeignKey
 
 # Create your models here.

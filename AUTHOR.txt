@@ -1,6 +1,6 @@
 =================================================================================
 Hello World!
-I'm Duvan SGF , Software Developer , I'm currently studying Software Engineering.
+I'm Duvan SGF, Software Developer , I'm currently studying Software Engineering.
 =================================================================================
 
 Dedicated to:

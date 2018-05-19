@@ -3,6 +3,7 @@ from __future__ import unicode_literals
 from django.db import models
 from django.urls import reverse
 from smart_selects.db_fields import GroupedForeignKey
+from django.contrib.auth.models import User
 
 # Create your models here.
 

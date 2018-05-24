@@ -21,7 +21,7 @@ class EstudianteForm(forms.ModelForm):
             'Es_Nombre': 'Nombre:',
             'Es_Apellido': 'Apellidos',
             'Es_TipoID': 'Tipo de identificacion',
-            'Es_Identificacion': 'Numero de ID',
+            'Es_Identificacion': 'Numero de identificacion',
             'Es_Codigo': 'Codigo',
             'Es_Programa_ID': 'Selecciona tu programa:',
             'Es_Departamento': 'Selecciona tu Departamento',

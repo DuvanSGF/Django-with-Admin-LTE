@@ -131,3 +131,15 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_pro", "static_root")
+LOGIN_REDIRECT_URL = '/site/'
+
+LOGIN_URL = '/site/login/'
+
+LOGIN_EXEMPT_URLS = (
+    r'^site/logout/$',
+    r'^site/register/$',
+    r'^site/reset-password/$',
+    r'^site/reset-password/done/$',
+    r'^site/reset-password/confirm/(?P<uidb64>[0-9A-Za-z]+)-(?P<token>.+)/$',
+    r'^site/reset-password/complete/$',
+)

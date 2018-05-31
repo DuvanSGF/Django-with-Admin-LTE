@@ -37,9 +37,9 @@ This package officially supports all currently supported versions of Python/Djan
 
 Authored by [Duvan Mejia](https://stackoverflow.com/users/9872532/duvan-sgf?tab=profile).
 
-----
-## Documentation
 
+## Documentation
+----
 * [Requirements](#requirements)
 * [Installation](#installation)
 * [Configuration](#configuration)

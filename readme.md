@@ -9,7 +9,7 @@ Django with Admin-LTE was developed by Duvan Mejia, with the documentation avail
 [![license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/DuvanSGF/Django-with-Admin-LTE/blob/master/LICENSE.TXT)
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/Duvancortes_mc.svg?style=social&label=Follow%20%40Duvancortes_mc)](https://twitter.com/Duvancortes_mc)
 
-[**Documentation**](#requirements) |
+[**Documentation**](#Documentation) |
 [**Examples**](#running-tests) |
 [**Support**](../../issues) |
 [**Changelog**](../../releases)
@@ -38,6 +38,7 @@ This package officially supports all currently supported versions of Python/Djan
 Authored by [Duvan Mejia](https://stackoverflow.com/users/9872532/duvan-sgf?tab=profile).
 
 ----
+# Documentation
 
 * [Requirements](#requirements)
 * [Installation](#installation)

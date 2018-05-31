@@ -7,9 +7,9 @@ Django with Admin-LTE was developed by Duvan Mejia, with the documentation avail
 [![npm](https://img.shields.io/npm/v/fine-uploader.svg)](https://docs.npmjs.com/getting-started/what-is-npm)
 [![CDNJS](https://img.shields.io/cdnjs/v/file-uploader.svg)](https://cdnjs.com/libraries/file-uploader)
 [![license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/DuvanSGF/Django-with-Admin-LTE/blob/master/LICENSE.TXT)
-[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fineuploader.svg?style=social&label=Follow%20%40FineUploader)](https://twitter.com/Duvancortes_mc)
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/Duvancortes_mc.svg?style=social&label=Follow%20%40FineUploader)](https://twitter.com/Duvancortes_mc)
 
-[**Documentation**](#requirements)
+[**Documentation**](#requirements) |
 [**Examples**](#running-tests) |
 [**Support**](../../issues) |
 [**Changelog**](../../releases)
@@ -51,8 +51,8 @@ Authored by [Duvan Mejia](https://stackoverflow.com/users/9872532/duvan-sgf?tab=
 ----
 
 ## Requirements
-* Django
-Your is download-project and you konw all about django Installation.
+* Django.
+* Your is download-project and you konw all about django Installation.
 
 
 ## Installation
@@ -100,7 +100,11 @@ After you have configured all migration settings, run
 ```bash
 python manage.py migrate estudiantes
 ```
+then
 
+```bash
+python manage.py makemigrations estudiantes
+```
 to create the required database tables and add the continent data to its table.
 
 
@@ -122,12 +126,7 @@ I'm finding some bugs and I will fix.
 1. Install postgres, MySQL (In my case I have installed XAMPP).
 2. Create `usco` database.
 3. Run the following command :
-        $ python manage.py migrate
 
-        and then:
-        $ python manage.py makemigrations estudiantes
-
-        then:
         $ python manage.py createsuperuser
         Username: admin
 

@@ -156,7 +156,7 @@ Use Django's native migrations
 [![Build Status](https://travis-ci.org/FineUploader/fine-uploader.svg?branch=master)](https://travis-ci.org/FineUploader/fine-uploader)
 [![npm](https://img.shields.io/npm/v/fine-uploader.svg)](https://www.npmjs.com/package/fine-uploader)
 [![CDNJS](https://img.shields.io/cdnjs/v/file-uploader.svg)](https://cdnjs.com/libraries/file-uploader)
-[![license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
+[![license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/DuvanSGF/Django-with-Admin-LTE/blob/master/LICENSE.TXT
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fineuploader.svg?style=social&label=Follow%20%40FineUploader)](https://twitter.com/fineuploader)
 
 [**Documentation**](https://docs.djangoproject.com/en/1.11/) |

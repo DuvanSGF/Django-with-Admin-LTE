@@ -1,6 +1,20 @@
-# administration page
+# Introduction
 ----
-Django administration page provides you admin crud for students (In this case for USCO students), that can be used in your django projects.
+Django with Admin-LTE was developed by Duvan Mejia, with the documentation available on docs.djangoproject.com. Django administration page provides you admin crud for students (In this case for USCO students), that can be used in your django projects.
+---
+
+[![Build Status](https://travis-ci.org/FineUploader/fine-uploader.svg?branch=master)](https://github.com/DuvanSGF/Django-with-Admin-LTE)
+[![npm](https://img.shields.io/npm/v/fine-uploader.svg)](https://docs.npmjs.com/getting-started/what-is-npm)
+[![CDNJS](https://img.shields.io/cdnjs/v/file-uploader.svg)](https://cdnjs.com/libraries/file-uploader)
+[![license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/DuvanSGF/Django-with-Admin-LTE/blob/master/LICENSE.TXT)
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fineuploader.svg?style=social&label=Follow%20%40FineUploader)](https://twitter.com/Duvancortes_mc)
+
+[**Documentation**](#requirements)
+[**Examples**](#running-tests) |
+[**Support**](../../issues) |
+[**Changelog**](../../releases)
+
+---
 
 This package officially supports all currently supported versions of Python/Django:
 
@@ -28,36 +42,18 @@ Authored by [Duvan Mejia](https://stackoverflow.com/users/9872532/duvan-sgf?tab=
 * [Requirements](#requirements)
 * [Installation](#installation)
 * [Configuration](#configuration)
-  * [Migration Configuration](#migration-configuration)
-    * [Swappable Models](#swappable-models)
-    * [Alternative Name Types](#alternative-name-types)
-    * [Continent Data](#continent-data)
+  * [Migration Configuration](#migrations-configuration)
   * [Run Migrations](#run-migrations)
-  * [Import Configuration](#import-configuration)
-    * [Download Directory](#download-directory)
-    * [Download Files](#download-files)
-    * [Currency Data](#currency-data)
-    * [Countries That No Longer Exist](#countries-that-no-longer-exist)
-    * [Postal Code Validation](#postal-code-validation)
-    * [Custom `slugify()` function](#custom-slugify-function)
-    * [Cities Without Regions](#cities-without-regions)
-    * [Languages/Locales To Import](#languageslocales-to-import)
-    * [Limit Imported Postal Codes](#limit-imported-postal-codes)
-    * [Plugins](#plugins)
-  * [Import Data](#import-data)
-* [Writing Plugins](#writing-plugins)
-* [Examples](#examples)
-* [Third Party Apps/Extensions](#third-party-apps--extensions)
-* [TODO](#todo)
 * [Notes](#notes)
 * [Running Tests](#running-tests)
-* [Release Notes](#release-notes)
+* [License](#License)
 
 ----
 
 ## Requirements
-
+* Django
 Your is download-project and you konw all about django Installation.
+
 
 ## Installation
 
@@ -146,22 +142,7 @@ I'm finding some bugs and I will fix.
 
  <img src="https://raw.githubusercontent.com/RamEduard/admin-lte-express/master/public/readme/login.png" width="300">
 
-## Release Notes
 
-Use Django's native migrations
+## license
 
-
-
-
-[![Build Status](https://travis-ci.org/FineUploader/fine-uploader.svg?branch=master)](https://travis-ci.org/FineUploader/fine-uploader)
-[![npm](https://img.shields.io/npm/v/fine-uploader.svg)](https://www.npmjs.com/package/fine-uploader)
-[![CDNJS](https://img.shields.io/cdnjs/v/file-uploader.svg)](https://cdnjs.com/libraries/file-uploader)
-[![license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/DuvanSGF/Django-with-Admin-LTE/blob/master/LICENSE.TXT)
-[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fineuploader.svg?style=social&label=Follow%20%40FineUploader)](https://twitter.com/fineuploader)
-
-[**Documentation**](https://docs.djangoproject.com/en/1.11/) |
-[**Examples**](http://fineuploader.com/demos) |
-[**Support**](../../issues) |
-[**Changelog**](../../releases)
-
----
+MIT, as the original project. See LICENSE.txt.

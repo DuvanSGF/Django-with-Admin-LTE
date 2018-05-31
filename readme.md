@@ -9,7 +9,7 @@ Django with Admin-LTE was developed by Duvan Mejia, with the documentation avail
 [![license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/DuvanSGF/Django-with-Admin-LTE/blob/master/LICENSE.TXT)
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/Duvancortes_mc.svg?style=social&label=Follow%20%40Duvancortes_mc)](https://twitter.com/Duvancortes_mc)
 
-[**Documentation**](#Documentation) |
+[**Documentation**](#documentation) |
 [**Examples**](#running-tests) |
 [**Support**](../../issues) |
 [**Changelog**](../../releases)

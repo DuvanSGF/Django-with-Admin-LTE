@@ -7,7 +7,7 @@ Django with Admin-LTE was developed by Duvan Mejia, with the documentation avail
 [![npm](https://img.shields.io/npm/v/fine-uploader.svg)](https://docs.npmjs.com/getting-started/what-is-npm)
 [![CDNJS](https://img.shields.io/cdnjs/v/file-uploader.svg)](https://cdnjs.com/libraries/file-uploader)
 [![license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/DuvanSGF/Django-with-Admin-LTE/blob/master/LICENSE.TXT)
-[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/Duvancortes_mc.svg?style=social&label=Follow%20%40FineUploader)](https://twitter.com/Duvancortes_mc)
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/Duvancortes_mc.svg?style=social&label=Follow%20%40Duvancortes_mc)](https://twitter.com/Duvancortes_mc)
 
 [**Documentation**](#requirements) |
 [**Examples**](#running-tests) |
@@ -46,13 +46,14 @@ Authored by [Duvan Mejia](https://stackoverflow.com/users/9872532/duvan-sgf?tab=
   * [Run Migrations](#run-migrations)
 * [Notes](#notes)
 * [Running Tests](#running-tests)
-* [License](#License)
+* [License](#license)
 
 ----
 
 ## Requirements
 * Django.
-* Your is download-project and you konw all about django Installation.
+
+Your is download-project and you konw all about django Installation.
 
 
 ## Installation
@@ -73,6 +74,8 @@ unzip master.zip
 pip install -r requirements.txt
 ./manage.py migrate
 ./manage.py runserver
+
+
 
 ## Configuration
 

@@ -20,19 +20,25 @@ from django.contrib.auth import login as auth_login
 def inicio(request):
     return render(request, "base/base.html", {})
 
+
 def login(request):
     if request.user.is_authenticated():
         return redirect('/site')
-    username = request.POST.get('username')
-    password = request.POST.get('password')
-    user = authenticate(request, username=username, password=password)
-    if user is not None:
-        auth_login(request, user)
-        # Redirect to a success page.
-        return HttpResponseRedirect('/site')
+    if request.method == 'POST':
+        username = request.POST['username']
+        password = request.POST['password']
+        user = authenticate(request, username=username, password=password)
+        if user is not None:
+            if user.is_active:
+                auth_login(request, user)
+                return HttpResponseRedirect('/site')
+            else:
+                return render(request, 'registration/login.html', {'error': 'Usuario no existe'}, content_type='text/html')
+        else:
+            return render(request, 'registration/login.html', {'error': 'Datos invalidos.'}, content_type='text/html')
     else:
-        # Return an 'invalid login' error message.
-        return render(request, 'registration/login.html', {'error': 'Usuario no activo'}, content_type='text/html')
+        return render(request, 'registration/login.html', {}, content_type='text/html')
+
 
 
 def register(request):

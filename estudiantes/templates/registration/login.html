@@ -37,9 +37,13 @@
   <div class="login-box-body">
     <p class="login-box-msg">Sign in to start your session</p>
     {% if error %}
-      <h4 class="header red lighter bigger">
 
-      </h4>
+    <div class="alert alert-success">
+        <a class="close" href="#" data-dismiss="alert">×</a>
+
+        {{ error }}
+
+    </div>
     {% endif %}
     <form action="" method="post">
       <div class="form-group has-feedback">

@@ -54,7 +54,6 @@ Authored by [Duvan Mejia](https://stackoverflow.com/users/9872532/duvan-sgf?tab=
 ## Requirements
 * Django.
 
-Your is download-project and you konw all about django Installation.
 
 
 ## Installation

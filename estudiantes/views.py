@@ -35,7 +35,7 @@ def login(request):
             else:
                 return render(request, 'registration/login.html', {'error': 'Usuario no existe'}, content_type='text/html')
         else:
-            return render(request, 'registration/login.html', {'error': 'Datos invalidos.'}, content_type='text/html')
+            return render(request, 'registration/login.html', {'error': 'Usuario o contraseña invalidos.'}, content_type='text/html')
     else:
         return render(request, 'registration/login.html', {}, content_type='text/html')
 

@@ -122,14 +122,18 @@ These settings should also be reviewed and set or modified before importing any 
 ## Notes
 
 If you is here! Congrats only two steps more and it's ready!
+
 I'm finding some bugs and I will fix.
+
 That's all about this project. 
 
 
 ## Future 
 
 * Upgrade Django-with-Admin-LTE with to Django 2.0 and Python 3.6.
+
 * Remove Smart-selects Module.
+
 I'm working about that!
 
 ## Running Tests

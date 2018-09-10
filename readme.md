@@ -130,7 +130,7 @@ That's all about this project.
 
 ## Future 
 
-* Upgrade Django-with-Admin-LTE with to Django 2.0 and Python 3.6.
+* Upgrade Django-with-Admin-LTE to Django 2.0 and Python 3.6.
 
 * Remove Smart-selects Module.
 

@@ -46,13 +46,15 @@ Authored by [Duvan Mejia](https://stackoverflow.com/users/9872532/duvan-sgf?tab=
   * [Migration Configuration](#migrations-configuration)
   * [Run Migrations](#run-migrations)
 * [Notes](#notes)
+* [Future](#future)
 * [Running Tests](#running-tests)
 * [License](#license)
 
 ----
 
 ## Requirements
-* Django.
+* Python 2.7
+* Django 1.11
 
 
 
@@ -120,9 +122,15 @@ These settings should also be reviewed and set or modified before importing any 
 ## Notes
 
 If you is here! Congrats only two steps more and it's ready!
-
 I'm finding some bugs and I will fix.
+That's all about this project. 
 
+
+## Future 
+
+* Upgrade Django-with-Admin-LTE with to Django 2.0 and Python 3.6.
+* Remove Smart-selects Module.
+I'm working about that!
 
 ## Running Tests
 

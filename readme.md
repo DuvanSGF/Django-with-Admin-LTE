@@ -110,7 +110,7 @@ then
 ```bash
 python manage.py makemigrations estudiantes
 ```
-to create the required database tables and add the continent data to its table.
+
 
 
 ### Import Configuration

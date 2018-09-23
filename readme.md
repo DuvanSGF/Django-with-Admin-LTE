@@ -125,7 +125,6 @@ If you is here! Congrats only two steps more and it's ready!
 
 I'm finding some bugs and I will fix.
 
-That's all about this project. 
 
 
 ## Future 
